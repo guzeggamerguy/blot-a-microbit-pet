@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="F+c111#U]csE=_z8_bN/">sprite</variable></variables><block type="device_gesture_event" id="M%};@KD`%{lb2#$VR9YZ" x="-458" y="-450"><field name="NAME">Gesture.ThreeG</field><statement name="HANDLER"><block type="playMelody" id="RL*p?r0EiaeH#=N-8en6"><value name="melody"><shadow type="melody_editor" id="*GukLq=]^JS[J#Pcn;mA"><field name="melody">"C5 B C5 - B A B C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="nN)e}m^]#5)Su?|b9u6X"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">170</field></shadow></value></block></statement></block><block type="device_gesture_event" id="-e`SB$8R_a9[0Z5^Kf_#" x="-67" y="-247"><field name="NAME">Gesture.SixG</field><statement name="HANDLER"><block type="SoundExpression_play" id="w=(y`b$^=NSol4J]aMCB"><field name="this">soundExpression.giggle</field></block></statement></block><block type="device_gesture_event" id="?ayb/BZIA}EN4Ba?^pL;" x="220" y="-254"><field name="NAME">Gesture.EightG</field><statement name="HANDLER"><block type="SoundExpression_play" id="#62vfd~cm;De!nrl68d~"><field name="this">soundExpression.yawn</field></block></statement></block><block type="pxt-on-start" id="(kb8Z4nT0(!|C4p[P_ts" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="YO^WzYuC3Mns*fpSRqQ."><value name="text"><shadow type="text" id="ilP_)-f`6q78(_2=jBaZ"><field name="TEXT">Loading Blot...</field></shadow></value><next><block type="device_show_leds" id="=Z9~8Bb!AC0{.(%jCtV$"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . . . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="s@6(L,[;Z,=m1%DND`e0" x="-90" y="406"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="i9nl6nCcj9x-.Ax(iE}M"><value name="number"><shadow type="math_number" id="mC:j}:8MZpR+Y^AMm3v1"><field name="NUM">2.5</field></shadow></value></block></statement></block><block type="device_button_event" id="#9rT0Dr!Tmh?cv-KP#*j" x="211" y="431"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="0Dr)~/qla;o|_~iE:tiD"><value name="text"><shadow type="text" id="Ei-3Jj9)^WQQ@V]+OL?r"><field name="TEXT">I'm hungry</field></shadow></value></block></statement></block><block type="device_button_event" id="lg/8Fr=b~|r!q8zq0WwE" x="-91" y="732"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id=";;0q)FJx3etT6G+_s}H+"><value name="text"><shadow type="text" id="GA{h@H5,I?0I/kC?]%aS"><field name="TEXT">I'm thirsty</field></shadow></value></block></statement></block><block type="device_gesture_event" id="!Bb`8EhZJ;YUwXMro++K" x="210" y="756"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="S`BRw]!xlM^gMpK_Q#-b"><value name="text"><shadow type="text" id=",i73-JgZf[sy~|b?}w,r"><field name="TEXT">I need a bucket!</field></shadow></value></block></statement></block><block type="device_gesture_event" id="?/%Vdw7H`GA@~WhyA132" x="-90" y="872"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="57M-~:w1[.hF:yj1NWaY"><field name="LEDS">`
+        # . . . . 
+        # # . . # 
+        # # . # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_print_message" id="|X2:p@qFQIE48mi|M=$,"><value name="text"><shadow type="text" id="l;|j^!:6T*QSgR?,BNe~"><field name="TEXT">Bucket is full of vomit! Find a way to empty it!</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="@]#*j4=Y3e;g;d#BQ70E" x="186" y="980"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="h}Lkr-17Kg{LgW*tfZx@"><field name="LEDS">`
+        . # . . # 
+        # . # # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_print_message" id="`xyAat!ul#W|Tf9}PeLz"><value name="text"><shadow type="text" id="-?n:lp^Nk}D@~VxK*:6r"><field name="TEXT">[GLUG GLUG]</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="|uhZOp?iTDhD^:GCy0h:" x="-97" y="1231"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="d1G[ma(OL4K59#-To[$)"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="Iw3iJ*F%{wV%~T}KAPgT"><value name="text"><shadow type="text" id="$Om8TjQ.TD%X#y0x/l|-"><field name="TEXT">[CHOMPS]</field></shadow></value></block></next></block></statement></block></xml>
